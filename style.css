@@ -424,7 +424,7 @@ header {
     animation: fadeInUp 0.8s ease-out 0.3s both;
 }
 
-.section-title {
+/* .section-title {
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.6s ease;
@@ -433,4 +433,71 @@ header {
 .section-title.animate {
     opacity: 1;
     transform: translateY(0);
+} */
+
+
+.footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 3rem 0 1rem;
+    /* margin-top: 5rem; */
 }
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.footer-section h3,
+.footer-section h4 {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+.footer-section p {
+    margin-bottom: 0.5rem;
+    color: #ddd;
+}
+
+.footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section a:hover {
+    color: #e74c3c;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1 rem;
+    /* border-radius: 5px; */
+    /* background-color: rgba(255, 255, 255, 0.1); */
+}
+
+.social-links img:hover {
+    background-color: rgba(251, 255, 21, 0.516);
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.footer-bottom {
+    border-top: solid 1px #34495e;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #bdc3c7;
+}
+
